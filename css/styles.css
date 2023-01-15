@@ -220,6 +220,21 @@ body * {
     
 }
 
+.benefits-item-icon {
+    width: 264px;
+    height: 112px;
+
+    background: #F4F4FD;
+    border-radius: 4px;
+}
+
+.benefits-icon {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
 /*===================/BENEFITS====================*/
 
 /*====================WORK====================*/
@@ -316,7 +331,71 @@ body * {
     border-radius: 0px 0px 4px 4px;;
 }
 
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.social-list-icon {
+    fill: #FFFFFF;
+}
+
 /*====================/TEAM====================*/
+
+/*====================CUSTOMERS====================*/
+
+.customers-section {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.customers-header {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,11;
+    
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #2E2F42;
+    
+    margin-top: 120px;
+}
+
+.group-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 72px;
+}
+
+.group-section {
+    margin-bottom: 120px;
+}
+
+.group-item {
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+}
+
+/*====================/CUSTOMERS====================*/
 
 /*====================FOOTER====================*/
 
@@ -339,6 +418,8 @@ body * {
 .footer-down {
     background-color: #2E2F42;
 }
+
+
 
 /*====================/FOOTER====================*/
 
