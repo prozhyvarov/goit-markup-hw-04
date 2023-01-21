@@ -178,7 +178,9 @@ body {
 /*=========================HERO=========================*/
 .hero {
   /* background: var(--grey-hero-image-background); */
-  max-height: 1440px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -187,6 +189,7 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
+
 .hero-div {
   padding-top: 188px;
   padding-bottom: 188px;
@@ -540,15 +543,19 @@ body {
 
 .examples-item {
   flex-basis: calc((100% - 2 * 24px) / 3);
+}
+
+.examples-item {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.examples-item:hover,
-.examples-item:focus {
-  border: 0.5px solid var(--cloud-light-mode-color);
+.examples-link:hover .examples-item-div,
+.examples-link:focus .examples-item-div {
+  /* border: 0.5px solid var(--cloud-light-mode-color); */
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+  
+ }
 
 .examples-par {
   margin-top: 8px;
@@ -558,9 +565,9 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
-  border-left: 1px solid var(--corn-flower-accent-color);
+  /* border-left: 1px solid var(--corn-flower-accent-color);
   border-right: 1px solid var(--corn-flower-accent-color);
-  border-bottom: 1px solid var(--corn-flower-accent-color);
+  border-bottom: 1px solid var(--corn-flower-accent-color); */
 }
 
 /*=========================/PORTFOLIO=========================*/
